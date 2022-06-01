@@ -1,3 +1,4 @@
+import cmd
 import datetime
 from termcolor import colored
 
@@ -63,22 +64,41 @@ print(2. * 3)
 
 print()
 
-print(8/2)
+print(8 / 2)
 print(8 / 2.)
-print(8. /2)
-print(8. /2.)
-print(.8 /2)
+print(8. / 2)
+print(8. / 2.)
+print(.8 / 2)
 print(6 // 3)
 print(6 // 3.)
 print(6. // 3)
 print(6. // 3.)
 print(-6 // 4)
 print(6. // -4)
-print(14%4)
-print(14 //4)
-print(14/4)
-print(12%4.5)
+print(14 % 4)
+print(14 // 4)
+print(14 / 4)
+print(12 % 4.5)
 print(-4 - 4)
 print(-4. + 8)
-print(+2-2)
+print(+2 - 2)
 print(-1.1)
+print(9 % 6 % 2)
+print(2 % 6 % 9)
+
+print(4 ** 4 ** 4)
+print(4e4)
+
+
+import os, sys
+
+var = 1
+account_balance = 1000.0
+client_name = 'John Doe'
+print(var, account_balance, client_name)
+log = 'python'
+print(os.system(log))
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
