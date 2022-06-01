@@ -50,3 +50,14 @@ print("+" + 10 * "_" + "+")
 print("+" + 10 * "-" + "+")
 print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
+height = 1.85 # input a float value for variable a here
+weight = 90.5 # input a float value for variable b here
+
+result = height + weight
+print(result)# output the result of addition here
+result_1 = height - weight# output the result of subtraction here
+print(result_1)
+print(height * weight)# output the result of multiplication here
+print(float(weight / height))# output the result of division here
+
+print("\nThat's all, folks!")
