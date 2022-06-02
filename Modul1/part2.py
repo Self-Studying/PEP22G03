@@ -61,3 +61,12 @@ print(height * weight)# output the result of multiplication here
 print(float(weight / height))# output the result of division here
 
 print("\nThat's all, folks!")
+
+#x = input(str("Enter value for x: "))
+
+#y = (1 / (x + (1/1))/(x + (1/1))/(x+ (1/x)))
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+print(hour,mins,dura)# Write your code here.
