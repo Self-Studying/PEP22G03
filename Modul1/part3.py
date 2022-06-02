@@ -1,7 +1,14 @@
-name = input("Please type your name here: ")
-print("Hello" + name + ".Nice to meet you?")
-print("\nPress end to end the program!")
-input()
-print("THE END")
-exit(0)
-123 + 0.0
+x = 1
+y = 2
+z = x
+x = y
+y = z
+print(x, y)
+
+x = int(input(1))
+y = int(input(2))
+x = x % y
+x = x % y
+y = y % x
+
+print(y)
