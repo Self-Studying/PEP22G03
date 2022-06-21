@@ -4,12 +4,11 @@ sentence = "Prezentarea si introducerea in lumea automatizării"
 print(sentence.upper())
 
 
-def putere_n(x, n,add=101):
+def putere_n(x, n):
+    print("Variabilele sunt: ", x, n)
+    return x ** n
 
-    print("Variabilele sunt: ", x, n, add)
-    return x ** n + add
 
-
-result = putere_n(4, 5, add=101)
-print(putere_n(4.55, 5, add=101))
-print(result)
+result = putere_n(4, 5)
+print(putere_n(4, 5))
+print("Un gigabit are : " + str(result) + " megabits.")
