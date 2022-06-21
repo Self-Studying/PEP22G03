@@ -1,24 +1,26 @@
-var = 0
-print(var == 0)
+# #
+#
+#
+#
+#
+# num = int(input("Enter a number: "))
+# if (num % 2) == 0:
+#    print("{0} is Even number".format(num))
+# else:
+#    print("{0} is Odd number".format(num))
+#
+# days = input("Please say what kind of day is it")
+# if days is input("sunny"):
+#    # print(days)
 
-n = int(input("Please type a number:"))
-if n > 100:
-    print(True)
-else:
-    print(False)
 
-the_weather_is_good = 'On Monday'
-nice_restaurant_is_found = 'In Timisoara'
-tickets_are_available = ''
-check_for_price = 0
-if the_weather_is_good:
-    if nice_restaurant_is_found:
-        print("have_lunch")
+parola_pc = 8877
+my_input = input("Te rog intreodu parola :")
+while True:
+    if my_input != 8877:
+        print("Parola gresita!")
+    elif parola_pc == my_input:
+       continue
+
     else:
-        print("We will eat_a_sandwich!")
-else:
-    if tickets_are_available:
-        check_for_price = 100
-    else:
-        print("Go_shopping!")
-
+       break
